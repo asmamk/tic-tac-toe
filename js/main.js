@@ -5,6 +5,8 @@
 let plyer1 = 'X';
 let plyer2 = 'O';
 let count = 1 ;
+let xWon=0;
+let oWin=0;
 let gameOver=false;
     let game = [
         ' ' , ' ' ,' ', //0 1 2
@@ -24,7 +26,7 @@ let gameOver=false;
             game[position] = plyer1
         }
         $(event.target).off('click')
-                console.log(count)
+                // console.log(count)
         count++;
         //calling the checkWinner function to check how is winner by end the game
         checkWinner();
@@ -62,9 +64,11 @@ let gameOver=false;
             }
         
             if(win === true){
+                recordWin(p);
                 swal( " Congratulation", p+' is winner ',"success");
                 // alert("Player "+ p + " winner " );
                 win = false;
+                
             }
             // condation for tie if all boxes is full
             if(count >=10){
@@ -72,7 +76,7 @@ let gameOver=false;
                 //alert("Tie");
             }
             //
-        recordWin();
+       
         });
         
        
@@ -105,11 +109,10 @@ let gameOver=false;
    $('#res').click(restart);
 
 
-   //  score for winne both X & O
+   //  score for winner both X & O
    function recordWin(winner){
-       let xWon=0;
-       let oWin=0;
-
+    console.log('winner is ', winner)
+    console.log('xwon is ', xWon)
     if (winner === "X"){
         xWon++;
         
@@ -121,6 +124,7 @@ let gameOver=false;
     $("#po").text("Player O : " +oWin);
 
 }
+
 
 
     

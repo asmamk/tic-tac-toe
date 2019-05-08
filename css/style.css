@@ -1,7 +1,7 @@
 body{
     text-align: center;
     padding: 60px;
-   /* background-image: url(https://media.istockphoto.com/photos/metal-tictactoe-game-pieces-picture-id168678735?k=6&m=168678735&s=612x612&w=0&h=jtuRoGQfvAFyO0m2oyqK0q9Zdcs6-jRfkJxZaegGKaE=);
+   /* background-image: url((https://media.istockphoto.com/photos/metal-tictactoe-game-pieces-picture-id168678735?k=6&m=168678735&s=612x612&w=0&h=jtuRoGQfvAFyO0m2oyqK0q9Zdcs6-jRfkJxZaegGKaE=));
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;*/
@@ -15,10 +15,11 @@ header{
     margin-bottom:100px; 
     padding: 10px ;
     height: 70px;
-    font-family:  'Gill Sans';
-    font-size: 40px;
+    font-family: 'Special Elite', cursive;
+    font-size: 35px;
     text-transform: uppercase;
-    color:  rgba(13, 42, 53, 0.92);;
+    color:  rgba(13, 42, 53, 0.92);
+
 }
 .contener{
 display: flex;
@@ -43,12 +44,13 @@ justify-content: center;
     background-color: white; 
     margin:5px;
     color: rgba(9, 46, 60, 0.678);
+    font-family: 'Cabin Sketch', cursive;
 
 }
 
 footer{
 
-    font-family: sans-serif , serif;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 15px;
     text-align: center;
     color:rgb(64, 67, 73);
@@ -56,20 +58,22 @@ footer{
 }
 .players{
     font-size:20px;
-    font-family:  sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     text-align: left;
     margin-left: 15em;
     
    
 }
 #po{
+    font-family: 'Special Elite', cursive;
     float: right;
     padding: 100px;
 
 }
 #px{
- float: left;
- padding: 100px;
+    font-family: 'Special Elite', cursive;
+    float: left;
+    padding: 100px;
 }
 
 #res{
@@ -98,9 +102,10 @@ footer{
 
     margin-bottom:50px;
     height: 70px;
-    font-family:  'Gill Sans';
+    font-family: 'Special Elite', cursive;
     font-size: 60px;
     text-transform: uppercase;
+
     
 
 
