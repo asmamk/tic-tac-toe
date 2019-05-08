@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    padding: 60px;
+   /* background-image: url(https://media.istockphoto.com/photos/metal-tictactoe-game-pieces-picture-id168678735?k=6&m=168678735&s=612x612&w=0&h=jtuRoGQfvAFyO0m2oyqK0q9Zdcs6-jRfkJxZaegGKaE=);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    background-color: rgba(112, 149, 163, 0.678);
+    border: 9px solid black;
+    
+
+}
+
+header{
+    margin-bottom:100px; 
+    padding: 10px ;
+    height: 70px;
+    font-family:  'Gill Sans';
+    font-size: 40px;
+    text-transform: uppercase;
+    color:  rgba(13, 42, 53, 0.92);;
+}
+.contener{
+display: flex;
+justify-content: center;
+
+}
+.contener :hover{
+    background-color: rgb(57, 101, 117) ;
+}
+
+
+.item{
+   
+   
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 30px;    
+    padding: 20px;
+    padding-top: 30px;
+    background-color: white; 
+    margin:5px;
+    color: rgba(9, 46, 60, 0.678);
+
+}
+
+footer{
+
+    font-family: sans-serif , serif;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(64, 67, 73);
+
+}
+.players{
+    font-size:20px;
+    font-family:  sans-serif;
+    text-align: left;
+    margin-left: 15em;
+    
+   
+}
+#po{
+    float: right;
+    padding: 100px;
+
+}
+#px{
+ float: left;
+ padding: 100px;
+}
+
+#res{
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+    background-color:  rgb(57, 101, 117);
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+/*index2.hitml style (second page )*/
+
+
+.index2{
+
+    text-align: center;
+    padding: 100px;
+    background-color: rgba(112, 149, 163, 0.678);
+    border: 9px solid black;
+}
+
+#t1{
+
+    margin-bottom:50px;
+    height: 70px;
+    font-family:  'Gill Sans';
+    font-size: 60px;
+    text-transform: uppercase;
+    
+
+
+}
+
+#start{
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+    background-color:  rgb(57, 101, 117);
+    color: white;
+    border-radius: 4px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
